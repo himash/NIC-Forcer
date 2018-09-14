@@ -1,14 +1,17 @@
+#  HiMasH  
+#  https://github.com/himash/NIC-Forcer
+
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.keys import Keys   # importing libraries
 from bs4 import BeautifulSoup
 import time
 import codecs
 
 
-browser = webdriver.Chrome()
-browser.get("http://eservices.elections.gov.lk/myVoterRegistrationLGA.aspx") 
+browser = webdriver.Chrome()               # chrome driver 
+browser.get("http://eservices.elections.gov.lk/myVoterRegistrationLGA.aspx")  # server url
 time.sleep(10)
-nicno = 942390980
+nicno = 942390980  # nic number to start with
 
 for i in range(1,2):
    
@@ -68,7 +71,7 @@ for i in range(1,2):
       row = [i.text for i in td]
       str1 = ''.join(row)
       print str1
-      defile = codecs.open("gg.txt","a+", "utf-8")
+      defile = codecs.open("gg.txt","a+", "utf-8")  # file to store the data
       defile.write(str1)
       defile.write("\n")
 
