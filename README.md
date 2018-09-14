@@ -12,6 +12,8 @@ Following details can be obtained from the script.
       8.PD NUMBER
       9.SERIAL NUMBER
 
-This script works on heroku servers.
+This script works on heroku servers.<br />
 there is another script also available to run on pc.(see brforcer-pc).
+<br />for 'brforcer-pc' script, chromedriver is needed and output text file  will be saved in working directory and the file name would be gg.txt 
+
 **i can't take any responsibility for the usage of this script. it's illegal**
