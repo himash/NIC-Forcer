@@ -1,3 +1,6 @@
+#  HiMasH  
+#  https://github.com/himash/NIC-Forcer
+
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
