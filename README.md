@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # NIC -- FORCER 
 This Script will get srilankan NIC (national identity card number) and the details related to NIC number from srilankan government servers.
 Following details can be obtained from the script.
